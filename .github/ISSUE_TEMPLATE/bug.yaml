@@ -12,7 +12,7 @@ body:
     attributes:
       label: Horas estimadas
       description: Las horas que va a tomar desarrollar las tareas del presupuesto.
-      placeholder: Ejemplo: 2.5 (2 horas, 30 minutos)
+      placeholder: "Ejemplo: 2.5 (2 horas, 30 minutos)"
     validations:
       required: true
   - type: input
