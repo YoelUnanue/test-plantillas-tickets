@@ -1,0 +1,24 @@
+name: Desarrollo
+description: Crea un ticket de desarrollo omitiendo el proceso de presupuesto al cliente.
+title: "Desarrollo: "
+labels: ["desarrollo"]
+body:
+  - type: input
+    id: horas
+    attributes:
+      label: Horas invertidas
+      description: Las horas aproximadas que se van a invertir en este desarrollo.
+      placeholder: "Opcional"
+  - type: input
+    id: links
+    attributes:
+      label: Link al ticket
+      description: Link al ticket de soporte que origino este desarrollo, si es que existe.
+      placeholder: "Opcional"
+  - type: textarea
+    id: detalles
+    attributes:
+      label: Detalles
+      description: Detalla todas las tareas que se van a hacer, cambios y arreglos, de ser necesario se pueden incrustar imagenes copiandolas y pegandolas con CTRL + V
+    validations:
+      required: true
